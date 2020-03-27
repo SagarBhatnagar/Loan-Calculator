@@ -11,6 +11,9 @@
         input[type=number] {
           -moz-appearance: textfield;
         }
+        #loading, #results{
+            display: none;            
+        }
     </style>
     <title>Loan Calculator</title>
   </head>
@@ -50,9 +53,9 @@
                         </div>
                     </form>
                     <!-- loader -->
-                    <!-- <div id="loading">
+                    <div id="loading">
                         <img src="Images/loading.gif" alt="">
-                    </div> -->
+                    </div>
                     <div id="results" class = "pt-4">
                         <h5>Results</h5>
                         <div class="form-group">
